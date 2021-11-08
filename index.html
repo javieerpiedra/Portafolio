@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="shortcut icon" href="favicon.svg" />
+
+    <title>Bienvenido</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top shadow-lg navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-md-flex w-100 justify-content-center">
+                    <div class="p-2 nav-item">
+                        <a href="#home" class="nav-link text-muted">Inicio</a>
+                    </div>
+                    <div class="p-2 nav-item">
+                        <a href="#about" class="nav-link text-muted">Acerca</a>
+                    </div>
+                    <div class="p-2 nav-item">
+                        <a href="#portafolio" class="nav-link text-muted">Portafolio</a>
+                    </div>
+                    <div class="p-2 nav-item">
+                        <a href="#contacto" class="nav-link text-muted">Contacto</a>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+
+    <div id="home" class="text-center page-white">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1><strong> Desarrollador WEB</strong></h1>
+                <p>Resuelvo problemas haciendo lo que más me gusta
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="ms-2 bi bi-heart-fill text-danger animate__animated  animate__heartBeat" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg>
+                </p>
+                <img src="src/svg/avatar.svg" alt="avatar" height="250">
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <svg style="margin-bottom: -1px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#6610f2" fill-opacity="1"
+        d="M0,160L48,154.7C96,149,192,139,288,128C384,117,480,107,576,106.7C672,107,768,117,864,133.3C960,149,1056,171,1152,186.7C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+      </svg>
+
+        <div class="page-purple p-5">
+            <div class="row">
+                <div class="col-md-5 me-auto mb-2">
+                    <h2>Quien Soy?</h2>
+                    <div class="row mt-5">
+                        <div class="col-md-12 ">
+                            <h3>Hola, Soy <strong>Javier Piedra</strong></h3>
+                            <p>Desarrollador full stack. Desde hace 2 años he realizado y dado soporte a sistemas completos para Durango, Ciudad Juárez y San Pedro Sula, Honduras.</p>
+                            <br>
+                            <p>Me gusta el trabajo en equipo y el aprendizaje continuo. Siempre en busca de nuevos desafios para aplicar mis habilidades y conocimientos</p>
+                        </div>
+                        <div class="col-md-12 mt-2 mb-5">
+                            <button id="btnCv" type="button" class="btn btn-warning animate__animated animate__slow" onclick='javascript:download("https://javieerpiedra.github.io/Portafolio/src/pdf/cv.pdf","CV Javier Piedra.pdf");'>Descargar
+                            CV</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>Mis habilidades</h2>
+                    <div class="skills animate__animated hidden-item">
+                        <div class="row mt-5 text-center">
+                            <div class="col-4 mt-2">
+                                <img src="src/svg/css.svg" alt="css-logo" height="80">
+                            </div>
+                            <div class="col-4 mt-2 ">
+                                <img src="src/svg/html5.svg" alt="html-logo" height="80">
+                            </div>
+                            <div class="col-4 mt-2">
+                                <img src="src/svg/javascript.svg" alt="js-logo" height="80">
+                            </div>
+                        </div>
+                        <div class="row  mt-5 text-center">
+                            <div class="col-4 mt-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <strong>.NET</strong>
+                                    </div>
+                                    <div class="col-12">
+                                        <img src="src/svg/net.svg" alt="net-logo" height="80">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mt-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <strong>MS Server</strong>
+                                    </div>
+                                    <div class="col-12">
+                                        <img src="src/svg/sqlserver.svg" alt="sql-logo" height="70">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <svg style="margin-top: -1px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#6610f2" fill-opacity="1"
+        d="M0,96L48,80C96,64,192,32,288,37.3C384,43,480,85,576,96C672,107,768,85,864,85.3C960,85,1056,107,1152,122.7C1248,139,1344,149,1392,154.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    </div>
+
+
+
+    <div id="portafolio" class="container text-center page-white-sm">
+        <div class="row">
+            <div class="col-md-12 me-auto">
+                <h1><strong>Portafolio</strong></h1>
+                <div class="row grid">
+                    <div class="col-md-12 mt-2">
+                        <figure class="effect-gradient shadow-3">
+                            <img src="src/img/reporte4.jpg" alt="reporte-1" class="img-fluid" />
+                            <figcaption>
+                                <h2>Reportes</h2>
+                                <p class="p-lg">Sistemas que presentan datos de una manera estructurada para una un proposito especifico, con graficos para resaltar tendencias de datos, valores atípicos o patrones.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <figure class="effect-gradient shadow-3">
+                            <img src="src/img/report2.jpeg" alt="reporte-2" class="img-fluid" />
+                            <figcaption>
+                                <h2>Reportes</h2>
+                                <p class="p-lg">Herramientas destinadas al diseño, generación y configuración de los reportes relacionados con los datos históricos almacenados en una fuente de datos.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <figure class="effect-gradient shadow-3">
+                            <img src="src/img/report3.jpeg" alt="reporte-3" class="img-fluid" />
+                            <figcaption>
+                                <h2>Reportes</h2>
+                                <p class="p-lg">Funciones para la importación y exportación de la información del reporte ya sea como imagen o en los formatos HTML, PDF y Excel. Para la interacción con las aplicaciones externas.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-auto mt-2">
+                        <figure class="effect-gradient shadow-3">
+                            <img src="src/img/mapa.jpeg" alt="reporte-4" class="img-fluid" />
+                            <figcaption>
+                                <h2>Mapas</h2>
+                                <p class="p-lg">Aplicaciones basadas en la ubicación o visualización de elementos en mapas interactivos, que permita poner a disposición de las personas información de manera visual, en un solo conjunto.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <figure class="effect-gradient shadow-3">
+                            <img src="src/img/pedidos.jpeg" alt="Pedido" class="img-fluid" />
+                            <figcaption>
+                                <h2>Gestion de pedidos</span>
+                                </h2>
+                                <p class="p-lg">Plataforma de gestión de pedidos y logística <br> con optimización automática de rutas, manejo de inventarios y una aplicación dedicada para repartidores.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <figure class="effect-gradient shadow-3">
+                            <img src="src/img/monitoreo.jpeg" alt="monitor" class="img-fluid" />
+                            <figcaption>
+                                <h2>Monitoreo de datos en tiempo real</h2>
+                                <p class="p-lg">Plataforma para visualización de resultados, asistencia de personal, control de producción y monitoreo de datos en tiempo real para toma de decisiones.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div id="contacto" style="margin-top: 10em;">
+        <div class="page-purple p-5 text-center " style="height: auto;">
+            <br>
+            <p>¿Estás interesado en colaborar o invertir?<br> Siempre estoy abierto a discutir el trabajo de diseño de productos o las oportunidades de asociación.</p>
+            <h4 class="mt-5"><strong>Vivir, aprender y subir de nivel día a día.</strong></h4>
+            <div class="d-md-flex w-100 justify-content-center mt-5 align-items-center">
+                <div class="p-2 nav-item">
+                    <a href="https://www.linkedin.com/in/jpgalvan" target="_blank">
+                        <img src="src/svg/linkedin.svg" alt="linkedin-logo" height="50">
+                    </a>
+                </div>
+                <div class="p-2 nav-item">
+                    <a href="mailto:javieerpiedra@gmail.com" target="_blank">
+                        <img src="src/svg/email.svg" alt="linkedin-logo" height="45">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>
